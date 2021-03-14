@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Memorias"
+  "defaultProject": "Memorias",
+  "cli": {
+    "analytics": "967a1380-f4b6-428f-a669-a1d030b9e635"
+  }
 }
