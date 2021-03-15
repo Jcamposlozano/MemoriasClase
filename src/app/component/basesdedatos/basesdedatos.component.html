@@ -1,147 +1,276 @@
-
-
-
 <div class="row">
     <div class="col-lg-3 col-xlg-2 col-md-4">
         <div class="stickyside">
             <div class="list-group" id="top-menu">
                 <a href="#1" class="list-group-item active">Clase Numero (1)</a>
                 <a href="#2" class="list-group-item active">Segundo Capitulo (2)</a>
-                
+
             </div>
         </div>
     </div>
 
-<div class="col-lg-9 col-xlg-10 col-md-8">
+    <div class="col-lg-9 col-xlg-10 col-md-8">
 
-    <div class="card text-white bg-success mb-3">
-        <div class="card-header">BASES DE DATOS </div>
-        <div class="card-body">
-          <p>Profesor: John Jairo Londoño</p>
-          <p>Grupo 2</p>
-          <p>Especialización en Ingenieria de Software</p>
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">BASES DE DATOS </div>
+            <div class="card-body">
+                <p>Profesor: John Jairo Londoño</p>
+                <p>Grupo 2</p>
+                <p>Especialización en Ingenieria de Software</p>
+            </div>
         </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-body" style="text-align: justify;">
-            <h4 class="card-title" id="1">Clase Numero (1)</h4>
-            <p>Cuando se habla del enfoque empresarial, se involucran:</p>
+
+        <div class="card">
+            <div class="card-body" style="text-align: justify;">
+                <h4 class="card-title" id="1">Clase Numero (1)</h4>
+                <p>Cuando se habla del enfoque empresarial, se involucran:</p>
+                <ol>
+                    <li>Capa Organizacional</li>
+                    <li>Capa de Procedimientos</li>
+                    <li>Capa de Datos</li>
+                    <li>Capa de Aplicaciones</li>
+                </ol>
+                <p>La capa organizacional, se representa para las empresas a través de los organigramas o estructuras organizaciones. </p>
+                <p>Los organigramas están compuestos por áreas o dependencias.</p>
+                <p>Las áreas o dependencias tienen como responsabilidad ejecutar una o varias misiones las cuales estarán debida mente asignadas por la alta gerencia, esto hace pensar, que difícilmente un ingeniero de sistemas, encargado de construir sistemas
+                    de información, pueda atreverse a cambiar las misiones.</p>
+                <p>Las misiones, involucran los escenarios sobre los cuales se deberá hacer el control, para cumplir con sus propósitos, estos escenarios se conocen dentro de la ingeniería de sistemas como clases.</p>
+                <p>Las áreas o dependencias de una empresa en cuestión Pueden tener a cargo una misión o varias misiones. Las misiones deberán albergar como mínimo dos clases. Y pueden tener las siguientes arquitecturas:</p>
+
+                <ol>
+                    <li><strong>Mono misional Simple: </strong>Hace referencia, a una sola misión con un mínimo de dos clases, articuladas, en la misma línea de control. </li>
+                    <li><strong>Mono misional Extendido:</strong> Hace referencia a un modelo de lógica de negocio, compuesto por mas de dos clases, todas articuladas en la misma línea de control.</li>
+                    <li><strong>Multi misional Simple:</strong> Es un modelo de lógica de negocio, con dos líneas de control, o más, diferentes pero en cada línea de control, aparecen como mínimo 2 clases.</li>
+                    <li><strong>Multi misional Extendido:</strong> Es un modelo de lógica de negocio, con dos o más líneas de control diferentes y en donde cada línea de control tiene mas de dos clases.</li>
+                </ol>
+
+                <h4>Taller de comprensión</h4>
+                <p>Dibuje un organigrama que tenga el siguiente árbol:</p>
+                <p>Gerencia</p>
+                <p>Personal – Ventas (Facturación)</p>
+                <p>La misión del área de facturación es la de controlar las facturas de los clientes, sin comprometerse con el detalle de los artículos </p>
+
+
+                <br>
+                <h4>Solución al taller</h4>
+                <div>
+                    <iframe frameborder="0" style="width:100%;height:530px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe></div>
+
+            </div>
+
+            <p>La mono misionalidad, de la lógica de los negocios siempre declara un mínimo de dos clases, cuando es entendida como simple y solo hará referencia a un área o dependencia.</p>
+
+
+            <h5>Mono Misional Extendido</h5>
+            <p>Este modelo identifica y vincula mas de dos clases, las cuales podrán ser extraídas de una o más áreas de dependencias</p>
+
+            <div>
+                <iframe frameborder="0" style="width:100%;height:660px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=PxXvCGHtBjbrI_yrl8Xf&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+            </div>
+
+            <h5>MULTIMISIONAL SIMPLE</h5>
+
+            <P>Este modelo, identifica dos o mas líneas de control en donde no existe, por lógica de negocio ningún tipo de relación entre las misiones, definidas por cada línea de control.</P>
+            <p>Por ser multimisionalidad simple, en cada una de las líneas de control, es decir en cada una de las misiones solo existirán dos clases. </p>
+            <p>Se advierte que la multimisionalidad, puede hacer referencia a una sola dependencia o área o mas de una dependencia. </p>
+
+            <div>
+                <iframe frameborder="0" style="width:100%;height:660px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=psYALBV4B9U9SLe9FUQ3&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+            </div>
+
+
+            <h5>MULTIMISIONAL EXTENDIDO</h5>
+            <p>En esta lógica de negocios deberá existir mínimo en una línea de control, es decir en una de las misiones mas de dos clases, significa entonces que de igual manera cada línea de control podrá tener tres clases o más. </p>
+            <p>Las líneas de control del modelo miltimisional podrán involucrar clases de una sola dependencia, o mas, como sigue:</p>
+            <div>
+                <iframe frameborder="0" style="width:100%;height:707px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=uJtuG6y1kFeS3H6iH3Nl&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+            </div>
+
+
+
+            <br>
+            <h4 id="2">SEGUNDO CAPITULO</h4>
+
+            <div class="row">
+                <div class="col">
+                    <P>La ley de la autodeterminación (Ley de Armstrog) consiste en asignar de manera (absoluta), a cada una de las clases, del modelo de la lógica de negocios los atributos o datos que les corresponda.</P>
+                    <p>Cuando se habla de la primera forma normal (1FN) esta reclama, de la existencia de un modelo de lógicas de negocios, de la aplicación de la ley de la autodeterminación:</p>
+
+                </div>
+                <div class="col">
+                    <iframe frameborder="0" style="width:100%;height:213px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=4YDIB6q8-bJMS1zP4AWS&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+                </div>
+            </div>
+
+
+
+            <P>Haciendo referencia al modelo mono misional simple facturas clientes, la ley de la autodeterminación, aplica como sigue:</P>
+
+
+            <P>La asignación absoluta de atributos significa que, en comienzo, los atributos asignados a una determinada clase son de esa clase y no de otras y viceversa; La ley de la autodeterminación nos permite desde el comienzo evitar y eliminar la redundancia
+                de los datos. </P>
+            <P>Después de haberse sucedido la auto determinación se deberán identificar la primary key de cada una de las clases, la Foreign Key por Defecto (FKD) exista en cada una de ellas; son foreign key por defecto, todos aquellos atributos, que desde
+                la misma aplicación de la ley de la autodeterminación, se comportan como atributos códigos.</P>
+            <P>Las dependencias funcionales hacen referencia a la relación inversa que existe entre la clase sucesora, y la clase antecesora del modelo de la lógica de negocio (Ri: Relación inversa); las dependencias funcionales son de tipo exclusivo (DFE)
+                y no exclusivo (DFNE). </P>
+
+            <p>Una dependencia funcional exclusiva define una relación inversa de 1 a 1.</p>
+            <p>Una dependencia funcional no exclusiva define una relación inversa de 1 a muchos. </p>
+            <p>Para el ejemplo de lógica de negocios clientes facturas, existirá por relación inversa una dependencia funcional exclusiva, es decir de 1 a 1 con base a la siguiente reflexión:</p>
+
+
             <ol>
-                <li>Capa Organizacional</li>
-                <li>Capa de Procedimientos</li>
-                <li>Capa de Datos</li>
-                <li>Capa de Aplicaciones</li>
+                <li>Existen muchos clientes.</li>
+                <li>Cada uno de los muchos clientes, puede tener muchas facturas.</li>
+                <li>Cada una de las muchas facturas de un determinado cliente son de ese cliente y no de otros.</li>
             </ol>
-            <p>La capa organizacional, se representa para las empresas a través de los organigramas o estructuras organizaciones. </p>
-<p>Los organigramas están compuestos por áreas o dependencias.</p>
-<p>Las áreas o dependencias tienen como responsabilidad ejecutar una o varias misiones las cuales estarán debida mente asignadas por la alta gerencia, esto hace pensar, que difícilmente un ingeniero de sistemas, encargado de construir sistemas de información, pueda atreverse a cambiar las misiones.</p>
-<p>Las misiones, involucran los escenarios sobre los cuales se deberá hacer el control, para cumplir con sus propósitos, estos escenarios se conocen dentro de la ingeniería de sistemas como clases.</p>
-<p>Las áreas o dependencias de una empresa en cuestión Pueden tener a cargo una misión o varias misiones. Las misiones deberán albergar como mínimo dos clases. Y pueden tener las siguientes arquitecturas:</p>
 
-<ol>
-    <li><strong>Mono misional Simple: </strong>Hace referencia, a una sola misión con un mínimo de dos clases, articuladas, en la misma línea de control. </li>
-    <li><strong>Mono misional Extendido:</strong> Hace referencia a un modelo de lógica de negocio, compuesto por mas de dos clases, todas articuladas en la misma línea de control.</li>
-    <li><strong>Multi misional Simple:</strong> Es un modelo de lógica de negocio, con dos líneas de control, o más, diferentes pero en cada línea de control, aparecen como mínimo 2 clases.</li>
-    <li><strong>Multi misional Extendido:</strong> Es un modelo de lógica de negocio, con dos o más líneas de control diferentes y en donde cada línea de control tiene mas de dos clases.</li>
-</ol>
-
-<h4>Taller de comprensión</h4>
-<p>Dibuje un organigrama que tenga el siguiente árbol:</p>
-<p>Gerencia</p>
-<p>Personal – Ventas (Facturación)</p>
-<p>La misión del área de facturación es la de controlar las facturas de los clientes, sin comprometerse con el detalle de los artículos </p>
+            <div>
+                <iframe frameborder="0" style="width:100%;height:543px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=uwyL2xnYeH_c0s5B0q2h&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+            </div>
 
 
-<br>
-<h4>Solución al taller</h4>
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:530px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe></div>
+            <p>A cada una de las clases, que hacen parte del modelo de la lógica de negocios. </p>
+            <p>Antes de proceder a construir el diseño de la base de datos es importante asegurar “Que la planeación del diseño” a definido de manera correcta el tipo de dependencia funcional que se presenta por relación inversa (Rr) entre cada una de las
+                clases.
+            </p>
 
-</div>
+            <p>Construcción del diseño de la base de datos (Lógica de negocios monomisional simple) </p>
 
-<p>La mono misionalidad, de la lógica de los negocios siempre declara un mínimo de dos clases, 
-    cuando es entendida como simple y solo hará referencia a un área o dependencia.</p>
+            <p>Cuando se ha definido una dependencia funcional exclusiva (dfe) por relación inversa entre las clases, la manera de solucionarla es la siguiente:</p>
 
+            <p>El atributo primary key (PK), de la clase antecesora deberá reflejarse (Ley de la Reflexivilidad) en la clase sucesora, en modo conjunto, entidad o tabla como Foreign Key por Proceso (FKP).</p>
+            <p>Se extrae que una Foreign Key por Proceso es el atributo primary key de una clase antecesora que resuelve una dependencia funcional exclusiva.</p>
 
-<h5>Mono Misional Extendido</h5>
-<p>Este modelo identifica y vincula mas de dos clases, las cuales podrán ser extraídas de una o más áreas de dependencias</p>
+            <h5>Modelo Notacional de conjuntos</h5>
 
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:660px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=PxXvCGHtBjbrI_yrl8Xf&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
-</div>
+            <p>Emerge como el primer modelo atreves del cual se muestra la construcción del diseño de la base de datos y por tanto comprende, de los siguientes procedimientos de normalización:</p>
 
-<h5>MULTIMISIONAL SIMPLE</h5>
+            <ol>
+                <li>Primera Forma normal</li>
+                <li>Segunda Forma normal</li>
+                <li>Tercera Forma Normal</li>
+            </ol>
 
-<P>Este modelo, identifica dos o mas líneas de control en donde no existe, por lógica de negocio ningún tipo de relación entre las misiones, definidas por cada línea de control.</P>
-<p>Por ser multimisionalidad simple, en cada una de las líneas de control, es decir en cada una de las misiones solo existirán dos clases. </p>
-<p>Se advierte que la multimisionalidad, puede hacer referencia a una sola dependencia o área o mas de una dependencia. </p>
+            <p>La primera Forma normal y segunda Forma normal (1FN 2FN), hacen parte de lo que se llama planeación de diseño de bases de datos.</p>
+            <p>La tercera forma normal, también y la cuarta y la quinta forma normal se relacionan ya no con la planeación, si no con la ” construcción del diseño de la bases de datos”.</p>
+            <p>Primera Forma normal 1FN: Se dice que la planeación del diseño de la base de datos se encuentra en primera forma normal cuando existe el modelo, de la lógica de negocios y existen una debida aplicación de la ley de la autodeterminación. </p>
+            <p>Segunda Forma normal 2FN: Se dice que la planeación del diseño de una base de datos se encuentra en segunda forma normal cuando estando en primera forma normal cumple con los siguientes requisitos.</p>
 
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:660px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=psYALBV4B9U9SLe9FUQ3&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
-</div>
+            <ol>
+                <li>Identificación del atributo PK para cada una de las clases de la lógica de negocios.</li>
+                <li>Identificación de los atributos Foreign Key por Defecto FKDcontenidos en cada una de las clases.</li>
+                <li>Definición por relación inversa (Ri) del tipo de dependencia funcional que existen entre las clases (DFE - DFNE).</li>
+            </ol>
+            <p>Tercera Forma normal 3FN: A partir de esta forma normal se habla de la construcción del “diseño de la base de datos”.</p>
+            <p>Se dice que la construcción del diseño de la base de datos se encuentra en tercera forma normal, cuando estando en 1FN y 2FN, cumple además con solucionar los tipos de dependencias funcionales que existen entre las clases por relación inversa.</p>
+            <P>Una dependencia funcional exclusiva siempre dará origen a una FKP.</P>
+            <P>Hacen también parte de la tercera forma normal, solucionar los atributos FKD que se encuentran dentro de cada una de las clases.</P>
+            <P>Cuarta forma normal 4FN: La construcción del diseño de la base de datos, estará en 4FN, cuando cumpliendo con estar, en 1FN, 2FN y 3FN resuelve parcialmente una dependencia funcional no exclusiva armando una llave compuesta con la PK de la
+                clase antecesora y la PK de la clase sucesora, asociando a esta llave compuesta los atributos de la clase sucesora que dependan estrictamente de las dos partes de la llave.</P>
+            <P>Quinta Forma normal 5FN: Se dice que la construcción del diseño de la base de datos se encuentra en 5FN cuando estando en 1FN, 2FN, 3FN y 4FN, se cumple con:</P>
+            <P>Identificar dentro de la clase sucesora parcialmente resuelta que atributos dependen estrictamente ya no de la llave compuesta, si no de la segunda parte de la llave.</P>
+            <P>Retomando el modelo de la lógica de negocios clientes – facturas, que hace referencia a una lógica monomisional simple y que tiene definido por relación inversa (Ri) una dependencia funcional exclusiva, la construcción del diseño a través
+                del modelo notacional de conjuntos es el siguiente:</P>
+            <P> -------- GR -----</P>
 
-
-<h5>MULTIMISIONAL EXTENDIDO</h5>
-<p>En esta lógica de negocios deberá existir mínimo en una línea de control, es decir en una de las misiones mas de dos clases, significa entonces que de igual manera cada línea de control podrá tener tres clases o más. </p>
-<p>Las líneas de control del modelo miltimisional podrán involucrar clases de una sola dependencia, o mas, como sigue:</p>
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:707px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=uJtuG6y1kFeS3H6iH3Nl&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
-</div>
-
-
-
-<br>
-<h4 id="2">SEGUNDO CAPITULO</h4>
-<P>La ley de la autodeterminación (Ley de Armstrog) consiste en asignar de manera (absoluta), 
-    a cada una de las clases, del modelo de la lógica de negocios los atributos o datos que les corresponda.</P>
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:213px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=4YDIB6q8-bJMS1zP4AWS&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
-</div>
-
-<p>Cuando se habla de la primera forma normal (1FN) esta reclama, de la existencia de un modelo de lógicas de negocios, de la aplicación de la 
-    ley de la autodeterminación:</p>
-<P>Haciendo referencia al modelo mono misional simple facturas clientes, la ley de la autodeterminación, 
-    aplica como sigue:</P>
+            <P>Este conjunto ha solucionado la Dependencia Funcional Exclusiva</P>
+            <P> -------- GR -----</P>
 
 
-<P>La asignación absoluta de atributos significa que, en comienzo, los atributos asignados 
-    a una determinada clase son de esa clase y no de otras y viceversa; La ley de la autodeterminación 
-    nos permite desde el comienzo evitar y eliminar la redundancia de los datos. </P>
-<P>Después de haberse sucedido la auto determinación se deberán identificar la primary key de cada 
-    una de las clases, la Foreign Key por Defecto (FKD) exista en cada una de ellas; son foreign 
-    key por defecto, todos aquellos atributos, que desde la misma aplicación de la ley 
-    de la autodeterminación, se comportan como atributos códigos.</P>
-<P>Las dependencias funcionales hacen referencia a la relación inversa que existe entre la clase sucesora, y la clase antecesora del modelo de la lógica de negocio (Ri: Relación inversa); 
-    las dependencias funcionales son de tipo exclusivo (DFE) y no exclusivo (DFNE). </P>
+            <P>Nota: téngase en cuenta que la metodología para construir los conjuntos del diseño de la base de datos indica que deberá hacerse a partir de la clase superior del modelo de la lógica de negocios</P>
 
-    <p>Una dependencia funcional exclusiva define una relación inversa de 1 a 1.</p>
-    <p>Una dependencia funcional no exclusiva define una relación inversa de 1 a muchos. </p>
-    <p>Para el ejemplo de lógica de negocios clientes facturas, existirá por relación 
-        inversa una dependencia funcional exclusiva, es decir de 1 a 1 con base a la siguiente reflexión:</p>
-  
-        
-<ol>
-    <li>Existen muchos clientes.</li>
-    <li>Cada uno de los muchos clientes, puede tener muchas facturas.</li>
-    <li>Cada una de las muchas facturas de un determinado cliente son de ese cliente y no de otros.</li>
-</ol>
+            <H5>MODELO CONCEPTUAL (MODELO ENTIDAD RELACION DE PETER CHAN)</H5>
+            <P>Para construir un modelo conceptual es haber construido previamente el modelo notacional de conjuntos.</P>
+            <P>La metodología para construir este modelo es la siguiente:</P>
+            <P>Inicie a la izquierda, con el conjunto en modo entidad que soluciono la ultima clase del modelo de la lógica de negocios.</P>
+            <P>Segundo: ubique a la derecha de la entidad de la izquierda los conjuntos en modo entidad que contienen las PK de la FK que se encuentran en la entidad de la izquierda.</P>
+            <P>Tercero: Repita el paso dos hasta haber involucrado todos los conjuntos que hayan sido previstos.</P>
+            <P>Cuarto: Relacione las entidades de derecha a izquierda, manteniendo siempre el 1 a la derecha y el muchos a la izquierda.</P>
+            <P>Quinto: En adelante deberá ser leído el modelo de derecha a izquierda</P>
+            <P>Sexto: Así como deberá ser leído el modelo, deberá ser llevado al motor.</P>
+            <P>Nota: Evite hasta donde sea posible, el cruce entre las relaciones.</P>
+            <P>Las únicas aristas de contacto entre las entidades del modelo serán: </P>
+            <OL>
+                <LI>La arista derecha de la entidad de la izquierda</LI>
+                <li>La arista izquierda de la entidad de la derecha</li>
+            </OL>
 
-<div>
-    <iframe frameborder="0" 
-    style="width:100%;height:543px;" 
-    src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=uwyL2xnYeH_c0s5B0q2h&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
-</div>
+            <h5>Modelo relacional:</h5>
 
+            <iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=LSO3kjs8PwDLX7f3hkac&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+            <iframe frameborder="0" style="width:100%;height:274px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=VSlQVt2PS5a0TrW9l7ga&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+
+
+            <p>Este modelo se construye teniendo en cuenta la misma metodología utilizada en el modelo conceptual o entidad relación, teniendo en cuenta que en lugar de utilizarse entidad se utilizaran tablas.</p>
+            <h5>Modelo DDL (Motor):</h5>
+
+            <code>
+create database facturacion;<br>
+use facturacion;<br>
+create table profesiones<br>
+(<br>
+    codigo_de_profesion int(2),<br>
+    nombre_de_profesion varchar(20),<br>
+    primary key (codigo_de_profesion)<br>
+);<br>
+create table clientes<br>
+(<br>
+    cedula int(8),<br>
+    nombre varchar(30),<br>
+    direccion varchar(30),<br>
+    telefono int(10),<br>
+    codigo_de_profesion int(2),<br>
+    primary key (cedula),<br>
+    foreign key (codigo_de_profesion) references profesiones (codigo_de_profesion)<br>
+);<br>
+create table tiposCompras<br>
+(<br>
+    codigo_de_compra int(2),<br>
+    nombre_tipo_compra varchar(20),<br>
+    primary key (codigo_de_compra)<br>
+);<br>
+create table facturas<br>
+(<br>
+    numero_factura int(4),<br>
+    fecha date,<br>
+    valor_total int,<br>
+    cedula int(8),<br>
+    codigo_de_compra int(2),<br>
+    primary key (numero_factura),<br>
+    foreign key (cedula) references clientes(cedula),<br>
+    foreign key (codigo_de_compra) references tiposCompras (codigo_de_compra)<br>
+);<br>
+            </code>
+
+            <p> ----------------- Preguntar -----------------</p>
+
+            <p>Modelo lógica de negocio multi misional extendido con dependencia funcional exclusiva</p>
+            <p>Hay que advertir que si el modelo multimisional simple o extendido este podrà ser construido dependiendo del proyecto informático que se pretenda, con base en la mision o misiones, de una sola área o dependencia, o de varias.</p>
+
+            <p>Un modelo de lógica de negocios, multi misional extendido exige que en alguna de sus misiones se vinculen más de dos clases, o en todas sus misiones.</p>
+            <p>con base en el siguiente modelo.</p>
+            <br>
+
+            <h5>Multi misional extendido </h5>
+
+            <h5>Taller</h5>
+            <p>Construya:</p>
+
+            <ol>
+                <li>el modelo notacional de conjuntos</li>
+                <li>el modelo conceptual o entidad relación</li>
+                <li>el modelo DDL (Motor)</li>
+            </ol>
+
+            <h5>Solución</h5>
+            <ol>
+                <li>
+                    <iframe frameborder="0" style="width:100%;height:923px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=fRqx-1K4T5TENanZueYP&title=Organigrama#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1clWl31OkniCPSGkhxCeXuZw_zT6EGy4u%26export%3Ddownload"></iframe>
+                </li>
+
+            </ol>
+
+
+        </div>
     </div>
-</div>
